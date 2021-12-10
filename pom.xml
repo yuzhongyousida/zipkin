@@ -60,7 +60,7 @@
     <mariadb-java-client.version>2.2.5</mariadb-java-client.version>
     <!-- Java 8 dep, which is ok as zipkin-mysql is Java 8 anyway -->
     <HikariCP.version>3.2.0</HikariCP.version>
-    <log4j.version>2.11.0</log4j.version>
+    <log4j.version>2.14.1</log4j.version>
     <!-- Be careful to set this as a provided dep, so that it doesn't interfere with dependencies
          from other projects. For example, cassandra and spring boot set guava versions -->
     <guava.version>19.0</guava.version>
